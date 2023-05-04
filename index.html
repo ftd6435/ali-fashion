@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/b91affedee.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Home page</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+
+        <nav class="navbar">
+            <div class="container">
+                <i class="close-bars fa-solid fa-xmark" onclick="closeMenu()"></i>
+                <i class="menu-bars fa-solid fa-bars" onclick="openMenu()"></i>
+                <a href="#" class="nav-brand font-lobster">Ali <span>Fashion</span></a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home" data-sec="1" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" data-sec="2" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#gallery" data-sec="4" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#services" data-sec="3" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#contact" data-sec="5" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- home -->
+        <div class="home section-1" id="home">
+            <div class="home-content">
+                <h1 class="font-lobster">Fashion Design</h1>
+                <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, inventore!</p>
+                <a href="#" class="btn btn-home">Gallery</a>
+            </div>
+
+            <!-- <div class="rotate"></div> -->
+        </div> 
+
+        <!-- section about -->
+        <div class="about section-2" id="about">
+            <img src="assets/images/ali.jpg" alt="profil">
+            <div class="about-content">
+                <h2 class="headline">About</h2>
+                <h3>Hi! I'm <span>Ali</span></h3>
+                <p class="title font-lobster">Stylish Fashion Designer</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Vero consequuntur consequatur reiciendis dicta et iure 
+                     expedita enim, voluptatibus ratione blanditiis assumenda 
+                     quae veritatis laudantium asperiores deserunt temporibus? 
+                     Quis, hic perferendis.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Nostrum repellendus eaque eius adipisci dolor aliquid 
+                     aperiam veniam, quaerat itaque iusto.
+                </p>
+                <a href="#" class="btn btn-services">Services</a>
+            </div>
+        </div> 
+
+        <!-- meet our models -->
+        <div class="model">
+            <h2 class="headline">Meet Our <span>Models</span></h2>
+
+            <div class="model-content">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/images/slide_1.jpg" class="d-block w-100" alt="slide_1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/slide_2.jpg" class="d-block w-100" alt="slide_2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/slide_3.jpg" class="d-block w-100" alt="slide_3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/slide_4.jpg" class="d-block w-100" alt="slide_4">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="model-text">
+                    <h2 class="font-lobster">Lead the way <span>2023</span></h2>
+                    <p class="where">Cotonou, 1<sup>ft</sup> 2023 <span>at Young house</span></p>
+                    <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing 
+                        elit. Voluptatibus fuga rem unde culpa eaque voluptas 
+                        soluta excepturi aut in! Dolorum culpa dolor fugit 
+                        impedit delectus.                    
+                    </p>
+                </div>
+            </div>
+
+            <div class="model-content">
+                <div class="model-text">
+                    <h2 class="font-lobster">Lead the way <span>2022</span></h2>
+                    <p class="where">Cotonou, 1<sup>ft</sup> 2023 <span>at Young house</span></p>
+                    <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing 
+                        elit. Voluptatibus fuga rem unde culpa eaque voluptas 
+                        soluta excepturi aut in! Dolorum culpa dolor fugit 
+                        impedit delectus.                    
+                    </p>
+                </div>
+
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/slide_1.jpg" class="d-block w-100" alt="slide_1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/slide_2.jpg" class="d-block w-100" alt="slide_2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/slide_3.jpg" class="d-block w-100" alt="slide_3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/slide_4.jpg" class="d-block w-100" alt="slide_4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Gallery section  -->
+        <div class="gallery section-3" id="gallery">
+            <h2 class="headline">At A Glance on <span>My Gallery</span></h2>
+
+            <div class="gallery-content">
+                <div class="gallery-aside">
+                    <a href="#"><img src="assets/images/gallery_1.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_2.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_3.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_4.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_5.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_6.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_7.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/gallery_8.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/ali.jpg" alt=""></a>
+                </div>
+                <img src="assets/images/gallery_2.jpg" alt="main gallery">
+            </div>
+        </div> 
+
+        <!-- services section  -->
+        <div class="services section-4" id="services">
+            <h2 class="headline">My <span>Services</span></h2>
+
+            <div class="services-content">
+                <div class="service-block">
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit adipisicing elit. Vero, exercitationem.</p>
+                </div>
+                <div class="service-block">
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit adipisicing elit. Vero, exercitationem.</p>
+                </div>
+                <div class="service-block">
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit adipisicing elit. Vero, exercitationem.</p>
+                </div>
+                <div class="service-block">
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit adipisicing elit. Vero, exercitationem.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- fashion model reviews section --> 
+        <div class="reviews">
+            <h2 class="headline">Fashion Model <span>Reviews</span></h2>
+
+            <div class="reviews-content">
+                <div class="reviews-c-text">
+                    <div class="reviews-text">
+                        <h3 class="name font-lobster">Fatime Diarra</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, aspernatur.</p>
+                    </div>
+                    <img src="assets/images/slide_4.jpg" alt="">
+                </div>
+
+                <div class="reviews-c-text">
+                    <div class="reviews-text">
+                        <h3 class="name font-lobster">Furdaos Hami</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, culpa!</p>
+                    </div>
+                    <img src="assets/images/slide_5.jpg" alt="">
+                </div>
+
+                <div class="reviews-c-text">
+                    <div class="reviews-text">
+                        <h3 class="name font-lobster">Pathé PK</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, culpa!</p>
+                    </div>
+                    <img src="assets/images/slide_1.jpg" alt="">
+                </div>
+
+                <div class="reviews-c-text">
+                    <div class="reviews-text">
+                        <h3 class="name font-lobster">Awa Diabaté</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, culpa!</p>
+                    </div>
+                    <img src="assets/images/slide_2.jpg" alt="">
+                </div>
+            </div>
+        </div> 
+
+        <!-- contact section  -->
+        <div class="contact section-5" id="contact">
+            <div class="contact-content">
+                <h2 class="headline">Contact <span>Me</span></h2>
+
+                <div class="contact-under-content">
+                    <div class="contact-form">
+                        <form action="">
+
+                            <div class="row">
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn btn-submit" type="submit">Submit form</button>
+                              </div>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <h2 class="address font-lobster">Address</h2>
+                        <p>Akweteyma, Accra Ghana</p>
+                        <h2 class="phone font-lobster">Phone</h2>
+                        <p>+233 260 18 6030</p>
+                        <p>+233 530 45 7069</p>
+                        <h2 class="email font-lobster">Email</h2>
+                        <p>pk8diallo@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="location">
+
+            </div>
+        </div> 
+
+        <!-- instagram stories section  -->
+        <div class="instagram">
+            <h2 class="headline">Instagram <span>Stories</span></h2>
+            <div class="instagram-content">
+                <div class="swiper slider-container">
+                    <div class="swiper instagram-slider">
+                        <div class="swiper-wrapper">
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_1.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_2.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_3.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_4.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_5.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_6.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_7.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/gallery_8.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                            <!-- slide-starts  -->
+                            <div class="swiper-slide instagram-slide">
+                                <img src="assets/images/ali.jpg" alt="">
+                            </div>
+                            <!-- slide-ends  -->
+                        </div>
+
+                        <!-- pagination  -->
+                        <div class="instagram-slider-control">
+                            <div class="swiper-button-prev slider-arrow">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+
+                            <div class="swiper-button-next slider-arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- footer of the single page  --> 
+        <footer class="footer">
+            <div class="footer-content">
+                <h3 class="headline font-lobster"><span>Get free newsletter to keep up-to-date with my projects.</span></h3>
+                <form action="">
+                    <div class="input-group input-group-lg">
+                        <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        <span class="input-group-text" id="inputGroup-sizing-lg" type="submit">Subscribe</span>
+                    </div>
+                </form>
+                <p>We respect your privacy. No spam ever!</p>
+            </div>
+            <div class="footer-social">
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <p>@2023 All right reserved | Design by Pathé-PK</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/js/scritp.js"></script>
+</body>
+</html>
